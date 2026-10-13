@@ -42,7 +42,7 @@ Flutter and Dart, Supabase, PostgreSQL, web APIs, background tasks, and automate
 ## Try Cruvio
 
 - [Watch the product demo](https://youtu.be/UjEGxzgWZhk)
-- [Open the web experience](https://cruvio-flutter-web.vercel.app)
+- [Visit the main site](https://cruvio.live)
 - [View the public case study](https://acenetics.dev/work)
 
 ## This repository
