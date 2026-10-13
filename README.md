@@ -1,39 +1,46 @@
 # Cruvio
 
-**Social discovery that leads to real plans**
+**Social discovery that helps people make real plans**
 
-Cruvio helps people meet through shared interests and small group activities. It is designed for people who are new to a city, campus, or life stage and want a clear path from discovering others to doing something together.
+Cruvio is a social-discovery product for people who want to meet others through shared interests and small group activities. It is shaped for moments such as moving to a new city, starting campus life, or looking for a new community.
 
-## How it works
+Instead of building an endless public feed, Cruvio organizes discovery around opportunities to do something together. It helps people move from a compatible interest to a specific plan, a group, or a local event.
 
-Cruvio brings three kinds of social opportunities into one experience:
+## Three ways to connect
 
-- **Plans** are short-term outings, such as trying a restaurant, visiting a gallery, or going for a walk.
-- **Crews** are ongoing groups formed around shared interests, goals, or life situations.
-- **Events** are local experiences hosted by businesses.
+- **Plans** are short-term activities such as trying a restaurant, walking, studying, or visiting a gallery.
+- **Crews** are ongoing circles formed around shared interests, goals, or life situations.
+- **Events** are local experiences hosted by verified businesses.
 
-People discover opportunities, express interest or request to join, and wait for the organizer to review participation. Accepted members can then coordinate in the relevant group conversation.
+Each type has its own participation flow and conversation context. A person can express interest in a plan or request to join a crew; the organizer reviews requests and capacity before participation is confirmed. Accepted members can then coordinate in the relevant group conversation.
 
-## Product focus
+## Discovery and trust
 
-- Country-first discovery with remote and hybrid options where relevant.
-- Organizer controls for membership, capacity, and participation.
-- Clear states for pending requests, acceptance, full plans, leaving, and reopened spaces.
-- Safety tools such as reporting and blocking, with meeting details protected until appropriate.
-- Flutter mobile experiences with a companion web experience.
+Discovery is country-first, with remote and hybrid options where appropriate. The product uses availability, interests, and profile details to help people find relevant crews and plans. The interaction model makes participation states visible, including pending requests, acceptance, full capacity, leaving, and reopened spaces.
 
-Cruvio is designed around smaller groups and shared activities instead of an endless public feed or open direct-message network.
+Safety is part of the flow. Cruvio includes reporting and blocking, keeps sensitive meeting details protected until appropriate, and ties group conversations to the relevant plan or crew. AI-assisted features support profile understanding, matching, moderation, group proposals, recaps, and in-app guidance while keeping the product focused on real-world connection.
+
+## Explore screen
+
+<p align="center">
+  <img src="assets/crew-discovery-screen.jpg" width="720" alt="Cruvio Explore screen with suggested crews, plans, and events">
+</p>
+<p align="center"><sub>Application capture using deterministic sample community content.</sub></p>
+
+## Engineering
+
+Cruvio combines a Flutter mobile app with a companion web experience. Supabase-backed data and server workflows support profiles, discovery, group participation, and messaging. The project includes backend functions, scheduled or event-driven work, and regression checks across the user journeys that span the app and backend.
 
 ## Technology
 
-Flutter and Dart, Supabase, and web APIs.
+Flutter and Dart, Supabase, PostgreSQL, web APIs, and automated workflow checks.
 
 ## Try Cruvio
 
-- [Watch the demo](https://youtu.be/UjEGxzgWZhk)
+- [Watch the product demo](https://youtu.be/UjEGxzgWZhk)
 - [Open the web experience](https://cruvio-flutter-web.vercel.app)
 - [View the public case study](https://acenetics.dev/work)
 
-## About this repository
+## This repository
 
-This is a public project summary. It does not contain private source code, user data, credentials, or internal operating details.
+This is a public project overview and interface capture. It does not contain private source code, user data, credentials, or internal operating details.
