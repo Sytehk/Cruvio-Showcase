@@ -43,6 +43,8 @@ Flutter and Dart, Supabase, PostgreSQL, web APIs, background tasks, and automate
 
 - [Watch the product demo](https://youtu.be/UjEGxzgWZhk)
 - [Visit the main site](https://cruvio.live)
+- [Download on the App Store](https://apps.apple.com/us/app/cruvio-find-your-crew/id6774282379)
+- [Get it on Google Play](https://play.google.com/store/apps/details?id=com.cruvio.acenetics)
 - [View the public case study](https://acenetics.dev/work)
 
 ## This repository
